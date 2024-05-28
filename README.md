@@ -1,6 +1,3 @@
-Certainly! Below is a simple "Read Me" guide for a Book Rental App built with React.js, Node.js, MongoDB, Mongoose, and Tailwind CSS.
-
----
 
 # Book Rental App
 
@@ -11,7 +8,6 @@ The Book Rental App is a full-stack web application that allows users to rent bo
 - User authentication and authorization (sign up, log in, log out)
 - Browse available books
 - Rent and return books
-- View rental history
 - Admin panel for managing books and rentals
 
 ## Technologies Used
@@ -29,20 +25,20 @@ Make sure you have the following installed on your system:
 ### Steps
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/book-rental-app.git
-   cd book-rental-app
+   git clone https://github.com/silwite/BookRentalApp.git
+   cd BookRentalApp
    ```
 
 2. **Install dependencies:**
    - For the back end:
      ```bash
-     cd backend
+     cd server
      npm install
      ```
    - For the front end:
      ```bash
-     cd ../frontend
-     npm install
+     cd client
+     npm run dev
      ```
 
 3. **Set up environment variables:**
@@ -60,13 +56,13 @@ Make sure you have the following installed on your system:
      ```
    - Start the back-end server:
      ```bash
-     cd backend
+     cd server
      npm start
      ```
    - Start the front-end development server:
      ```bash
-     cd ../frontend
-     npm start
+     cd client
+     npm run dev
      ```
 
    The app should now be running at `http://localhost:3000`.
@@ -116,7 +112,7 @@ Feel free to fork the repository and submit pull requests. For major changes, pl
 
 
 ## Contact
-For any issues or suggestions, please contact [your email].
+For any issues or suggestions, please contact manshin2002@gmail.com
 
 ---
 
