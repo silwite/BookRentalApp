@@ -38,7 +38,7 @@ Make sure you have the following installed on your system:
    - For the front end:
      ```bash
      cd client
-     npm run dev
+     npm install
      ```
 
 3. **Set up environment variables:**
